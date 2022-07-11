@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("assets/background.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2.5rem;
+  color: white;
+}
+
+.profile {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 1.5rem;
+}
+
+.profile p {
+  font-family: "Poppins", cursive;
+  font-size: 1rem;
+}
+
+.profile img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.sosmed {
+  margin-top: 1.5rem;
+}
+
+.sosmed .btn {
+  background-color: aliceblue;
+  display: inline-block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins";
+  text-align: center;
+  margin-bottom: 1rem;
+  transition: 0.5s;
+}
+
+.sosmed .btn.whatsapp {
+  color: #25d366;
+}
+
+.sosmed .btn.whatsapp:hover {
+  color: white;
+  background-color: #25d366;
+  box-shadow: 0 0 10px 2px #25d366;
+}
+
+.sosmed .btn.whatsapp:focus {
+  color: white;
+  background-color: #25d366;
+  box-shadow: 0 0 10px 1px #25d366;
+}
+
+.sosmed .btn.instagram {
+  color: #d9317a;
+}
+
+.sosmed .btn.instagram:hover {
+  color: white;
+  background: linear-gradient(to top right, #d9317a, #893dc2);
+  /* background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    ); */
+  box-shadow: 0 0 10px 2px #d9317a;
+}
+
+.sosmed .btn.instagram:focus {
+  color: white;
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+    box-shadow: 0 0 10px 2px white;
+}
+
+.sosmed .btn.facebook {
+  color: #4267B2;
+}
+
+.sosmed .btn.facebook:hover {
+  color: white;
+  background-color: #4267B2;
+  box-shadow: 0 0 10px 2px #4267B2;
+}
+
+.sosmed .btn.facebook:focus {
+  color: white;
+  background-color: #4267B2;
+  box-shadow: 0 0 10px 2px #4267B2;
+}
+
+.sosmed .btn.twitter{
+  color: #1DA1F2;
+}
+
+.sosmed .btn.twitter:hover {
+  color: white;
+  background-color: #1DA1F2;
+  box-shadow: 0 0 10px 2px #1DA1F2;
+}
+
+.sosmed .btn.twitter:focus {
+  color: white;
+  background-color: #1DA1F2;
+  box-shadow: 0 0 10px 2px #1DA1F2;
+}
+
+.sosmed .btn.discord {
+  color: #7289da;
+}
+
+.sosmed .btn.discord:hover {
+  color: white;
+  background-color: #7289da;
+  box-shadow: 0 0 10px 2px #7289da;
+}
+
+.sosmed .btn.discord:focus {
+  color: white;
+  background-color: #7289da;
+  box-shadow: 0 0 10px 2px #7289da;
+}
+
+.sosmed .btn.github {
+  color: #333;
+}
+
+.sosmed .btn.github:hover {
+  color: white;
+  background-color: #333;
+  box-shadow: 0 0 10px 2px #333;
+}
+
+.sosmed .btn.github:focus {
+  color: white;
+  background-color: #333;
+  box-shadow: 0 0 10px 2px #333;
+}
+
+footer {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 0.9rem;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("assets/Poppins-Regular.ttf");
+}
